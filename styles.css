@@ -1,0 +1,51 @@
+@font-face {
+	font-family: Minecraft;
+	src: url(/font/MinecraftRegular.otf);
+}
+
+body {
+    background: fixed;
+	overflow: hidden;
+	background-color: black;
+}
+
+.containerUsername {
+	width: 100svw;
+	height: 80svh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	position: absolute;	
+}
+	
+.username {
+	font-family: Minecraft;
+	text-shadow: 1px 1px 2px pink;
+	
+	font-size: 40px;
+	
+}
+
+.bgVid {
+	position: absolute;
+	right: 0;
+	bottom: -4px;
+	z-index: -1;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+video {
+	opacity: 0.8;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+
+@media (max-aspect-raio: 16/9){
+	.bgVid {
+		width: auto;
+		height: 100%;
+	}
+}
