@@ -1,13 +1,13 @@
 @font-face {
 	font-family: Minecraft;
-	src: url(/font/MinecraftRegular.otf);
+	src: url(/font/MinecraftBold.otf);
 }
 
 body {
     background: fixed;
 	margin: 0;
 	overflow: hidden;
-	background-color: black;
+	
 }
 
 .containerUsername {
@@ -21,24 +21,26 @@ body {
 	
 .username {
 	font-family: Minecraft;
-	text-shadow: 1px 1px 2px pink;
-	
-	font-size: 40px;
+	color: rgb(218, 218, 218);
+	text-shadow: 3px 1px 2px pink;
+	font-size: 45px;
 	
 }
 
 .bgVid {
 	position: absolute;
 	background: rgba(0, 0, 0, 0.5);
+	margin: 0 auto;
+	display: block;
 }
 
 video {
-	opacity: 0.8;
-	-webkit-filter: blur(5px);
-	-moz-filter: blur(5px);
-	-o-filter: blur(5px);
-	-ms-filter: blur(5px);
-	filter: blur(5px);
+	opacity: 1;
+	-webkit-filter: blur(7px);
+	-moz-filter: blur(7px);
+	-o-filter: blur(7px);
+	-ms-filter: blur(7px);
+	filter: blur(7px);
 }
 
 @media (max-aspect-raio: 16/9){
