@@ -27,6 +27,22 @@ body {
 	
 }
 
+.containerPFP {
+	width: 100svw;
+	height: 52svh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	position: absolute;	
+}
+
+.pfp {
+	border-radius: 100%;
+	height: 175px;
+	width: 175px;
+	box-shadow: 0px 0px 50px black;
+}
+
 .bgVid {
 	position: absolute;
 	background: rgba(0, 0, 0, 0.5);
