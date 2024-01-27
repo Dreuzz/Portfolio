@@ -42,36 +42,36 @@ body {
 }
 
 .containerIcons {
-    height: 75px;
-    width: 150px;
-	display: flex;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
     align-items: center;
-	justify-content: center;
     position: absolute;
-    gap: 8px;
+    gap: 10px;
     left: 50%;
-    top: 50%;
+    top: 48%;
     transform: translate(-50%, -50%);
 }
 
 .githubIcon {
 	width: 50px;
     height: 50px;
-    transition: transform 0.3s;
+    transition: transform 0.3s ease-in-out;
 }
 
 .discordIcon {
 	width: 50px;
     height: 50px;
-    transition: transform 0.3s;
+    transition: transform 0.3s ease-in-out;
 }
 
-.discordIcon :hover {
-	transform: scale(1.1);
+.discordIcon:hover {
+	transform: scale(1.2);
 }
 
-.githubIcon :hover {
-	transform: scale(1.1);
+.githubIcon:hover {
+	transform: scale(1.2);
 }
 
 .bgVid {
