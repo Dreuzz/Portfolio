@@ -20,7 +20,7 @@ html {
 body {
 	background-image: url(./img/back.webp);
 	background-repeat: no-repeat;
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(7px);
 	justify-content: center;
 	background-size: cover;
 	overflow: hidden;
@@ -76,7 +76,7 @@ body {
 }
 
 .containerIcons > svg {
-	transition: 0.3s ease-in-out all;
+	transition: transform 0.3s ease-in-out;
 	height: 50px;
 	width: 50px;
 	z-index: 1;
@@ -84,6 +84,6 @@ body {
 }
 
 .containerIcons svg:hover {
-	transform: scale(1.1);
+	transform: scale(1.2);
 	cursor: pointer;
 }
